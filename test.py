@@ -14,8 +14,7 @@ import docx
 from openai import OpenAI
 
 # Load API key from environment variable
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-# os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 client = OpenAI()
 
 

@@ -2,6 +2,7 @@ import os
 import io
 import streamlit as st
 import whisper
+import os
 import sounddevice as sd
 import numpy as np
 from scipy.io.wavfile import write
@@ -12,8 +13,9 @@ import fitz  # PyMuPDF
 import docx
 from openai import OpenAI
 
-
-os.environ["OPENAI_API_KEY"] = "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"
+# Load API key from environment variable
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# os.environ["OPENAI_API_KEY"] = "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"
 client = OpenAI()
 
 

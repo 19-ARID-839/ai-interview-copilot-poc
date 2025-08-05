@@ -1,0 +1,12 @@
+openai==1.2.0
+streamlit
+whisper
+sounddevice
+numpy
+scipy
+nltk
+pymupdf
+python-docx
+psutil
+fastapi
+uvicorn

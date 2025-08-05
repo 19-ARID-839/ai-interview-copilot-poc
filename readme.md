@@ -10,3 +10,4 @@ It demonstrates:
 3) AI-generated STAR-format answers (OpenAI GPT API)
 4) Integrated web UI built with Streamlit
 5) Chrome extension overlay support for Zoom/Meet (basic integration in POC)
+6) Before running the app, set your OpenAI API key:
